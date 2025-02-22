@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0d1b1e;
+    color: #ffffff;
+}
+
+header {
+    background-color: #014d4e;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background: #162a2c;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: none;
+}
+
+#about, #contact {
+    display: block;
+}
+
+h2 {
+    border-bottom: 3px solid #01796f;
+    padding-bottom: 5px;
+    color: #00a896;
+}
+
+.project, .job {
+    background: #005f56;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+button {
+    background: #01796f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #00a896;
+}
+#profile-pic {
+    width: 350px;  /* Adjust the width as needed */
+    height: 350px; /* Adjust the height as needed */
+    border-radius: 50%;  /* Keeps the image round */
+    margin-right: 20px; /* Adds space between the image and the name */
+    float: left;  /* Positions the image to the left */
+}
+
+header {
+    display: flex;
+    align-items: center;  /* Aligns the image and text vertically */
+}
